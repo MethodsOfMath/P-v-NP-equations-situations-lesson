@@ -1,4 +1,22 @@
 <style>
 /* paste CSS here */
+#current-image, #buttons {
+margin: 10px;
+}
+
+#yesImages {
+  border: 5px, solid, green;
+  margin: 10px;
+}
+
+#noImages{
+  border: 5px, solid, red;  
+  margin: 10px;
+}
+
+#message{
+  background-color: yellow;
+  margin: 10px;
+}
 
 </style>
