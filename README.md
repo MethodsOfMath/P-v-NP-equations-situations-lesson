@@ -1,2 +1,2 @@
-# Yes No Game Proportional Relationships
-[(https://methodsofmath.github.io/yes-no-game-proportional/](https://methodsofmath.github.io/yes-no-game-proportional/)
+# Proportional or Non-Proportional Equations and Situations Lesson
+[(https://methodsofmath.github.io/P-v-NP-equations-situations-lesson/](https://methodsofmath.github.io/P-v-NP-equations-situations-lesson/)
