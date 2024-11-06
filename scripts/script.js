@@ -8,7 +8,7 @@ yesImages = "<h1>Proportional</h1>";
 noImages = "<h1>Non-Proportional</h1>";
 
 function displayImage(n) {
- let image ="<img src='/images/" + n + ".png' height='"+ currentHeight + "'>";
+ let image ="<img src='https://raw.githubusercontent.com/MethodsOfMath/P-v-NP-equations-situations-lesson/refs/heads/master/images/" + n + ".png' height='"+ currentHeight + "'>";
  if (n === 1){
    image += "<p>This is proportional. Click yes to begin.</p>";
  }
@@ -19,12 +19,12 @@ function yes(){
   if (key[imageNumber-1][1]) {
     let msg = "You are correct!";
     document.getElementById("message").innerHTML = msg;
-  yesImages += "<img src='/images/" + imageNumber + ".png' height='" + height + "'>";
+  yesImages += "<img src='https://raw.githubusercontent.com/MethodsOfMath/P-v-NP-equations-situations-lesson/refs/heads/master/images/" + imageNumber + ".png' height='" + height + "'>";
   document.getElementById("yesImages").innerHTML = yesImages;
   } else {
       let msg = "No, it's non-proportional.";
       document.getElementById("message").innerHTML = msg;
-    noImages += "<img src='/images/" + imageNumber + ".png' height='" + height + "'>";
+    noImages += "<img src='https://raw.githubusercontent.com/MethodsOfMath/P-v-NP-equations-situations-lesson/refs/heads/master/images/" + imageNumber + ".png' height='" + height + "'>";
   document.getElementById("noImages").innerHTML = noImages;
   }
   if (imageNumber < 21) {
@@ -41,12 +41,12 @@ function no(){
   if (key[imageNumber-1][1]) {
     let msg = "No, it's proportional.";
     document.getElementById("message").innerHTML = msg;
-  yesImages += "<img src='/images/" + imageNumber + ".png' height='" + height + "'>";
+  yesImages += "<img src='https://raw.githubusercontent.com/MethodsOfMath/P-v-NP-equations-situations-lesson/refs/heads/master/images/" + imageNumber + ".png' height='" + height + "'>";
   document.getElementById("yesImages").innerHTML = yesImages;
   } else {
       let msg = "You are correct.";
       document.getElementById("message").innerHTML = msg;
-    noImages += "<img src='/images/" + imageNumber + ".png' height='" + height + "'>";
+    noImages += "<img src='https://raw.githubusercontent.com/MethodsOfMath/P-v-NP-equations-situations-lesson/refs/heads/master/images/" + imageNumber + ".png' height='" + height + "'>";
   document.getElementById("noImages").innerHTML = noImages;
   }
   if (imageNumber < 39) {
