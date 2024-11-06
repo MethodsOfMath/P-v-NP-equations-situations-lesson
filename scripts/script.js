@@ -1,8 +1,7 @@
-// paste JavaScript here
 imageNumber = 1;
 height = 200;
 currentHeight = 300;
-key = [[1,true],[2,false],[3,false],[4,true],[5,true],[6,false],[7,false],[8,false],[9,true],[10,true],[11,false],[12,false],[13,true],[14,true],[15,false],[16,false],[17,true],[18,false],[19,true],[20,false]];
+key = [[1,true],[2,true],[3,false],[4,true],[5,true],[6,false],[7,false],[8,false],[9,true],[10,true],[11,false],[12,false],[13,true],[14,true],[15,false],[16,false],[17,true],[18,false],[19,true],[20,false]];
 
 yesImages = "<h1>Proportional</h1>";
 noImages = "<h1>Non-Proportional</h1>";
@@ -27,7 +26,7 @@ function yes(){
     noImages += "<img src='https://raw.githubusercontent.com/MethodsOfMath/P-v-NP-equations-situations-lesson/refs/heads/master/images/" + imageNumber + ".png' height='" + height + "'>";
   document.getElementById("noImages").innerHTML = noImages;
   }
-  if (imageNumber < 21) {
+  if (imageNumber < 20) {
   imageNumber += 1;
   displayImage(imageNumber);
   } else {
