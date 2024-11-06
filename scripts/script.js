@@ -9,7 +9,7 @@ noImages = "<h1>Non-Proportional</h1>";
 function displayImage(n) {
  let image ="<img src='https://raw.githubusercontent.com/MethodsOfMath/P-v-NP-equations-situations-lesson/refs/heads/master/images/" + n + ".png' height='"+ currentHeight + "'>";
  if (n === 1){
-   image += "<p>This is proportional. Click yes to begin.</p>";
+   image += "<p>This is proportional. Click proportional to begin.</p>";
  }
   document.getElementById("current-image").innerHTML = image;
 }
